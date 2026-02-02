@@ -8,6 +8,7 @@ import Dealer from "./components/Dealers/Dealer";
 import PostReview from "./components/Dealers/PostReview";
 
 function App() {
+  /* jshint ignore:start */
   return (
     <Routes>
       <Route path="/login" element={<LoginPanel />} />
@@ -17,6 +18,7 @@ function App() {
       <Route path="/postreview/:id" element={<PostReview />} />
     </Routes>
   );
+  /* jshint ignore:end */
 }
 
 export default App;
